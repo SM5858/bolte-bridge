@@ -16,6 +16,7 @@ jobs:
         uses: actions/setup-go@v6.5.0
         with:
           go-version-file: go.mod
+          cache: true
 
       - name: Run tests
         run: go test -race -covermode=atomic -coverprofile=coverage.out -v ./...
@@ -36,6 +37,7 @@ jobs:
         uses: actions/setup-go@v6.5.0
         with:
           go-version-file: go.mod
+          cache: true
 
       - name: Run golangci-lint
         uses: golangci/golangci-lint-action@v9.3.0
