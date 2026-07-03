@@ -1,6 +1,6 @@
 // Package relay defines the medium-agnostic types exchanged between the
 // Email and Matrix adapters and the Core Relay. Adapters parse native events
-// into these types on ingest and reconstruct native events on egress.;
+// into these types on ingest and reconstruct native events on egress.
 // The core never deals with the underlying wire formats.
 package relay
 
