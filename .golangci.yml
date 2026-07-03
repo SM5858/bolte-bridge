@@ -7,10 +7,7 @@ formatters:
   enable:
     - gci
     - gofmt
-    - gofumpt
-    - goimports
     - golines
-    - swaggo
   # Formatters settings.
   settings: {}
   exclusions:
