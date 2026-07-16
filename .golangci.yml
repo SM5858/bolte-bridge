@@ -5,7 +5,6 @@ formatters:
   # Enable specific formatter.
   # Default: [] (uses standard Go formatting)
   enable:
-    - gci
     - gofmt
     - golines
   # Formatters settings.
